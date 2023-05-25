@@ -17,11 +17,11 @@ function newItem(){
     
      //2. Crossing out an item from the list of items:
        function crossOut() {
-             li.addClass("strike");
+             li.toggleClass("strike");
          }
     
          li.on("dblclick", function crossOut(){
-            li.addClass("strike");
+            li.toggleClass("strike");
          });
     
      //3(i). Adding the delete button "X": 
